@@ -1,6 +1,6 @@
 # Welcome! 
 
-### This is a current work in progress, circle back to see the finished piece! 
+### This is a current work in progress ( as if 7/10/26), circle back to see the finished piece! 
 
 This is a simulation of realistic business data within a PowerBI semantic model and analytical report organized in the star schema using PowerQuery and DAX, including ETL processes, data modeling, and analytics. 
 
