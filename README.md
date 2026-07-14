@@ -1,39 +1,49 @@
 # Welcome! 
 
-### This is a current work in progress ( as if 7/10/26), circle back to see the finished piece! 
+### This is a current work in progress - circle back to see the finished piece! 
 
-This is a simulation of realistic business data within a PowerBI semantic model and analytical report organized in the star schema using PowerQuery and DAX, including ETL processes, data modeling, and analytics. 
+This repo is a simulation of realistic business data within a PowerBI semantic model and analytical report organized in the star schema using PowerQuery and DAX, including ETL processes, data modeling, and analytics. 
 
-This project is in two parts. 
+This project begins with a simulation of a realistic business case: 
 
-Part 1: an PowerBI sematinc model (import) following modern architectural standards using ETL processes, data modeling in the star schema. 
+### Part 1: Beginning Simulation 
 
-Part 2: BI and Analytics Reporting following industry standards in BI reporting. 
+- 23 raw CSV files with various naming conventions, missing data, duplicate entries, mis aligned headings, extranous information.
+  ###### Thank you from the always talented Baraa Khatib Salkini for the simulated data
+
+The CSV files are used to simulate a realistic PowerBI Model (simulated_enterprise_semantic_model_non_engineered.pbix). This represents a realistic usecase on an enterprise level where 
+PowerBI serves as a quick reporting tool but the underlying model has been left to the auto features of PowerBI, which generates unreliable and erroneous results. 
+
+
+### Part 2: Power BI Semantic Model Building 
+
+
+### Part 3: Power BI Vizualization and Reporting 
 
 
 
 ### Objective
 
-Develop a modern PowerBI semantic model and analytical report/dashboard. 
+Develop a modern PowerBI semantic model and analytical report/dashboard from a realistic simulation of an unengineered PowerBI Semantic Model. 
 
 #### Specifications
 
 •	Data Sources: Import data from 23 realistic tables of simulated business data provided as CSV files.
 
-•	Data Quality: Cleanse and resolve data quality issues prior to analysis.
+- Create Simulated Starting Model: Using CSV files, create a realistic starting simulation
 
-•	Integration: Combine sources into a single, user-friendly semantic model designed for analytical queries.
-
-•	Scope: Focus on the latest dataset only; historization of data is not required.
-
-•	Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+- Create Star Schema Fully Engineered Semantic Model:
+    - Data Quality: Cleanse and resolve data quality issues
+    - Key Quality: Ensure all keys are distinct and unqiue
+    - Data Necessity: Ensure all tables and columns are necessary to avoid bloated semantic model
+    - Relationships & Filtering: Ensure one to many relationships, filtering directions 
 
 
 ## BI: Analytics \& Reporting (Data Analysis)
 
 ### Objective 
 
-Develop DAX measures, other vizual analytics in PowerBI to deliver detailed insights into:
+Develop DAX measures, analytics, and vizuals in PowerBI to deliver detailed insights into:
 
 •	Customer Behavior
 
