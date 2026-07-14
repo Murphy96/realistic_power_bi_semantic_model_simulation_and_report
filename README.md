@@ -11,7 +11,7 @@ This project begins with a simulation of a realistic business case:
 - 23 raw CSV files with various naming conventions, missing data, duplicate entries, mis aligned headings, extranous information.
   ###### Thank you to the always talented Baraa Khatib Salkini for generating the simulated CSVs!
 
-The CSV files are used to simulate a realistic PowerBI Model *simulated_enterprise_semantic_model_non_engineered.pbix*. 
+The CSV files are used to simulate a realistic PowerBI Model: *simulated_enterprise_semantic_model_non_engineered.pbix*. 
 This represents a realistic use case on an enterprise level where 
 PowerBI has served as a quick reporting tool. Data has been dumped in, the underlying semantic model has been left to the auto features of PowerBI 
 which generates unreliable and at times misleading results. 
