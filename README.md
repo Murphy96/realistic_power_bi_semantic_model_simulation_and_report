@@ -22,6 +22,8 @@ which generates unreliable and at times misleading results.
 - Starting from the *simulated_enterprise_semantic_model.pbix* file, we create organization from the initial chaos.
 - Using star schema principles, tables are organized into fact and dimension tables
   - During the process, data is transformed:
+    - Tables are merged using LEFT JOINs
+    - Data is checked against heuristics for outliers, dummy data, and quality issues  
     - Extraneous information is deleted
     - Keys are created
     - Duplicates removed
@@ -33,7 +35,8 @@ which generates unreliable and at times misleading results.
 
 - The final model is generated and saved in *star_schema_engineer_model.pbix*
     - To see the underlying queries, access PowerQuery from Model View > Home Ribbon > Transform data
-    -***Note*** This file contains only the engineered model, there are no vizualizations. 
+    
+    ***Note*** This file contains only the engineered model, there are no vizualizations. 
 
 ### Part 3: Power BI Vizualization and Reporting 
 
