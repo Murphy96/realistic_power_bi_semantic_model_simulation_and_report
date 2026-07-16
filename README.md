@@ -19,6 +19,21 @@ which generates unreliable and at times misleading results.
 
 ### Part 2: Power BI Semantic Model Building 
 
+- Starting from the *simulated_enterprise_semantic_model.pbix* file, we create organization from the initial chaos.
+- Using star schema principles, tables are organized into fact and dimension tables
+  - During the process, data is transformed:
+    - Extraneous information is deleted
+    - Keys are created
+    - Duplicates removed
+    - Data is reshaped, data types are standardized
+    - Naming conventions and formatting conventions are standardized
+    - Relationships between tables are strictly one to many
+    - Queries are referenced, most raw queries for intitial data load are intact if business demands require additional tables.
+    - Integrity of model is checked for accuracy against raw sources
+
+- The final model is generated and saved in *star_schema_engineer_model.pbix*
+    - To see the underlying queries, access PowerQuery from Model View > Home Ribbon > Transform data
+    -***Note*** This file contains only the engineered model, there are no vizualizations. 
 
 ### Part 3: Power BI Vizualization and Reporting 
 
