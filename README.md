@@ -1,7 +1,5 @@
 # Hello! 
 
-### This is a current work in progress - circle back to see the finished piece! 
-
 This repo is a simulation of realistic business data within a PowerBI semantic model and analytical report organized in the star schema using PowerQuery and DAX, including ETL processes, data modeling, and analytics. 
 
 This project begins with a simulation of a realistic business case: 
