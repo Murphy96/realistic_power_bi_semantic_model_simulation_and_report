@@ -31,13 +31,14 @@ which generates unreliable and at times misleading results.
     - Queries are referenced, most raw queries for intitial data load are intact if business demands require additional tables.
     - Integrity of model is checked for accuracy against raw sources
 
-- The final model is generated and saved in *star_schema_engineer_model.pbix*
+- The final model is generated and saved in 
     - To see the underlying queries, access PowerQuery from Model View > Home Ribbon > Transform data
     
     ***Note*** This file contains only the engineered model, there are no vizualizations. 
 
 ### Part 3: Power BI Visualization and Reporting 
--  By adding measures, date dimensions, and ensuring proper aggregation in each column in our model, we create the foundations of our report. 
+-  Starting from the *star_schema_engineer_model.pbix*, we add measures, date dimensions, and ensuring proper aggregation in each column in our model,
+   to create the foundations of our analytical report. 
 
 
 ### Objective
