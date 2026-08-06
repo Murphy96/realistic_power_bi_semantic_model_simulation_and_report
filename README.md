@@ -36,8 +36,8 @@ which generates unreliable and at times misleading results.
     
     ***Note*** This file contains only the engineered model, there are no vizualizations. 
 
-### Part 3: Power BI Vizualization and Reporting 
-
+### Part 3: Power BI Visualization and Reporting 
+-  By adding measures, date dimensions, and ensuring proper aggregation in each column in our model, we create the foundations of our report. 
 
 
 ### Objective
