@@ -48,17 +48,21 @@ which generates unreliable and at times misleading results.
     - Data is reshaped, data types are standardized
     - Naming conventions and formatting conventions are standardized
     - Relationships between tables are strictly one to many
-    - Queries are referenced, most raw queries for intitial data load are intact if business demands require additional tables.
+    - Queries are referenced, most raw queries for initial data load are intact if business demands require additional tables.
     - Integrity of model is checked for accuracy against raw sources
 
 - The final model is generated and saved in 
     - To see the underlying queries, access PowerQuery from Model View > Home Ribbon > Transform data
     
-    ***Note*** This file contains only the engineered model, there are no vizualizations. 
+    ***Note*** This file contains only the engineered model, there are no visualizations. 
 
 ### Part 3: Power BI Visualization and Reporting 
--  Starting from the *star_schema_engineer_model.pbix*, we add measures, date dimensions, and ensuring proper aggregation in each column in our model,
-   to create the foundations of our analytical report. 
+-  Starting from the *star_schema_engineer_model.pbix*, we add standard business measures to ensure all aggregation and calculations are consistent
+-  All date column formats are standardized and a date table is added, allowing reports to be filtered by date across tables
+-  Row level security is added using the row_level_security table which limits access to customer information to customers in the users' region.
+-  Row level security is tested via the View as option in the security tab to ensure that report filtering functions as intended.
+-  Some visualizations have been added to the report for testing purposes. 
+
 
 
 
