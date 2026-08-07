@@ -14,7 +14,7 @@ Develop a modern PowerBI semantic model and analytical report/dashboard from a r
 
 - Create Star Schema Fully Engineered Semantic Model:
     - Data Quality: Cleanse and resolve data quality issues
-    - Key Quality: Ensure all keys are distinct and unqiue
+    - Key Quality: Ensure all keys are distinct and unique
     - Data Necessity: Ensure all tables and columns are necessary to avoid bloated semantic model
     - Relationships & Filtering: Ensure one to many relationships, filtering directions 
 
@@ -51,7 +51,7 @@ which generates unreliable and at times misleading results.
     - Queries are referenced, most raw queries for initial data load are intact if business demands require additional tables.
     - Integrity of model is checked for accuracy against raw sources
 
-- The final model is generated and saved in 
+- The final model is generated and saved in *star_schema_engineer_model.pbix*
     - To see the underlying queries, access PowerQuery from Model View > Home Ribbon > Transform data
     
     ***Note*** This file contains only the engineered model, there are no visualizations. 
@@ -61,7 +61,10 @@ which generates unreliable and at times misleading results.
 -  All date column formats are standardized and a date table is added, allowing reports to be filtered by date across tables
 -  Row level security is added using the row_level_security table which limits access to customer information to customers in the users' region.
 -  Row level security is tested via the View as option in the security tab to ensure that report filtering functions as intended.
--  Some visualizations have been added to the report for testing purposes. 
+-  Some visualizations have been added to the report for testing purposes.
+
+- The polished model is saved in *engineered_model_measures_security.pbix*
+    - To see measures (contained in _measures), the added date table (dim_date), and security features, examine the model view (left side tool bar).      
 
 
 
